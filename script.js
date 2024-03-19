@@ -91,3 +91,16 @@ function stopVideo() {
     video.pause();
 }
 
+function showQRCode() {
+    const qrCode = document.getElementById('downloadQR');
+    if (qrCode.style.display === 'none') {
+        qrCode.style.display = 'block';
+    } else {
+        qrCode.style.display = 'none';
+    }
+}
+
+function hideQRCode() {
+    const qrCode = document.getElementById('downloadQR');
+    qrCode.style.display = 'none';
+}

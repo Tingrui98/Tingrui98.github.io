@@ -12,7 +12,7 @@
 
     <div id="video" class="container">
         <h2>Game Trailer</h2>
-        <iframe src="https://www.youtube.com/embed/zQk1QHm2-Cw?si=1OtOrC7tiOYIqQuc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/P6xGgOI3GWY?si=jzdUiuNZpbs7qmyx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 
 <div id="characterInfo" class="container">
@@ -33,6 +33,12 @@
             <!-- Event items will be added dynamically using JavaScript -->
         </ul>
         <button onclick="loadEvents()">Load Events</button>
+    </div>
+
+    <div id="downloadSection" class="container">
+        <h2>Download Genshin Impact</h2>
+        <img id="downloadQR" src="images/download.png" alt="Download QR Code" style="display:none; cursor:pointer; max-width:200px;" onclick="hideQRCode()">
+        <button onclick="showQRCode()">Download Genshin Impact</button>
     </div>
 
     <div id="feedback" class="container">
